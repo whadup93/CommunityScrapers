@@ -1,0 +1,10 @@
+name: "Bulk Submit"
+sceneByFragment:
+    action: script
+    script:
+      - python
+      # use python3 instead if needed
+      - bulksubmit.py
+      - query
+
+# Last Updated March 15, 2022
